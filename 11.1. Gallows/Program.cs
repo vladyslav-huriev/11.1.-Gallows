@@ -6,7 +6,7 @@ class Program
 {
     static void Main()
     {
-        string[] answers = { "Zihuatanejo", "Hope", "Freedom", "Justice", "Shawshank" }; // new line/updated
+        string[] answers = {"Zihuatanejo", "Resilience", "Courage", "Redemption", "Friendship"}; // new line/updated
         Random random = new Random(); // new line
         string secretWord = answers[random.Next(answers.Length)]; // new line
         char[] guessedWord = new string('_', secretWord.Length).ToCharArray();
@@ -15,7 +15,7 @@ class Program
         Console.WriteLine("Welcome to the Gallows game!");
         Console.WriteLine("You have incredible option to try to guess the encrepted word!");
         Console.WriteLine("Today we will be talking about the The Shawshank Redemption movie.");
-        Console.WriteLine("Try to guess one of these words: Zihuatanejo, Hope, Freedom, Justice, Shawshank");
+        Console.WriteLine("Try to guess one of these words: Zihuatanejo, Resilience, Courage, Redemption, Friendship");
         Console.WriteLine();
         //Console.WriteLine("QUESTION: What is the name of the lake mentioned in Andy's note to Red, where he invites him to meet after their time in Shawshank, describing it as a peaceful place in Mexico where he dreams of starting a new life?");
         //Console.WriteLine();
